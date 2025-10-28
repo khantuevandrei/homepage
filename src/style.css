@@ -12,3 +12,15 @@ body {
   color: white;
   font-family: Montserrat;
 }
+
+/* Mobile */
+@media (max-width: 500px) {
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+}
