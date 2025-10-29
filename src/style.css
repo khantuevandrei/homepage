@@ -13,8 +13,28 @@ body {
   font-family: Montserrat;
 }
 
+.one .project-preview {
+  background-color: #942a21;
+}
+.two .project-preview {
+  background-color: #7c76c6;
+}
+.three .project-preview {
+  background-color: #668d52;
+}
+.four .project-preview {
+  background-color: #ba69b1;
+}
+.five .project-preview {
+  background-color: #d09245;
+}
+.six .project-preview {
+  background-color: #5ea0cf;
+}
+
 /* Mobile */
 @media (max-width: 500px) {
+  /* about */
   .about {
     display: flex;
     flex-direction: column;
@@ -28,7 +48,7 @@ body {
     width: 100vw;
     z-index: -1;
     transform: skewY(-30deg);
-    top: -62vh;
+    top: -55vh;
   }
 
   .about-image {
@@ -77,10 +97,72 @@ body {
   .about-links img {
     width: 3rem;
   }
+
+  /* work */
+  .work {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+
+  .work h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+  }
+
+  .cards {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  .card {
+    display: grid;
+    grid-template-rows: 6fr 1fr 2fr;
+    height: 60vh;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
+  }
+
+  .project-preview {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .project-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0;
+  }
+
+  .project-name h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    margin-right: auto;
+  }
+
+  .project-description {
+    padding: 1rem;
+    padding-top: 0;
+    font-size: 1.3rem;
+  }
+
+  .work img {
+    width: 2rem;
+  }
 }
 
 /* Tablet */
 @media (min-width: 500px) and (max-width: 1000px) {
+  /* about */
   .about {
     background-color: white;
     box-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
@@ -147,6 +229,8 @@ body {
   .about-links {
     display: none;
   }
+
+  /* work */
 }
 
 /* Desktop */
