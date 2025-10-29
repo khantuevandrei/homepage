@@ -231,6 +231,67 @@ body {
   }
 
   /* work */
+  .work {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+
+  .work h2 {
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    row-gap: 5rem;
+  }
+
+  .card {
+    display: grid;
+    grid-template-rows: 6fr 1fr 2fr;
+    height: 40vh;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
+    max-width: 40vw;
+  }
+
+  .project-preview {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .project-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+
+  .project-name h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-right: auto;
+  }
+
+  .project-description {
+    padding: 1rem;
+    padding-top: 0;
+    font-size: 1.3rem;
+    color: rgb(29, 29, 29);
+  }
+
+  .work img {
+    width: 2rem;
+  }
 }
 
 /* Desktop */
