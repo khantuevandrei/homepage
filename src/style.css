@@ -80,7 +80,73 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
+  .about {
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+
+  .background-skew {
+    background-color: #398fb0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    transform: skewY(-15deg);
+    top: -60vh;
+    left: 0;
+  }
+
+  .about-image {
+    background-image: url(./images/1.jpg);
+    background-size: 150%;
+    background-position: 45% 15%;
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
+    float: left;
+    margin-right: 1.5rem;
+    transform: scale(120%);
+    position: relative;
+    top: -3rem;
+    left: -2rem;
+  }
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    left: 28vw;
+    margin: 0;
+    width: 120%;
+    text-shadow: 0.2rem 0.2rem 0.5rem rgb(50, 50, 50);
+  }
+
+  .about h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 3rem;
+  }
+
+  .about p {
+    font-size: 1.4rem;
+    color: rgb(29, 29, 29);
+    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+
+  .about-links {
+    display: none;
+  }
 }
 
 /* Desktop */
