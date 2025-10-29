@@ -357,6 +357,74 @@ body {
   }
 
   /* contacts */
+  .contacts {
+    background-color: #398fb0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 2rem;
+    color: white;
+  }
+
+  .contacts h2 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .contacts-info p {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .contacts-info p:first-of-type {
+    margin-bottom: 2rem;
+  }
+
+  .contacts-info p:nth-child(4) {
+    margin-bottom: 2rem;
+  }
+
+  .contacts-info p:nth-child(5) {
+    margin-bottom: 1rem;
+  }
+
+  .contacts-info p:nth-child(6) {
+    margin-bottom: 2rem;
+  }
+
+  .contacts-info p:nth-child(5),
+  .contacts-info p:nth-child(6) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  p > img {
+    width: 2rem;
+  }
+
+  .contacts-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .contacts-links img {
+    width: 3rem;
+  }
+
+  .contacts-image {
+    background-image: url(./images/2.jpg);
+    background-size: 120%;
+    background-position: 90% 70%;
+  }
 }
 
 /* Desktop */
